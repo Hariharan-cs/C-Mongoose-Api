@@ -1,0 +1,38 @@
+.card-alignment{
+    margin-bottom: 3rem !important;
+}
+
+.card-alignment:hover{
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08) !important;
+    transform: translateY(-2px);
+}
+
+.card-transform, img{
+    max-width: 280px!important;
+    transform: translateX(-21.7%) !important;
+    /* transform: translateY(-3%) !important; */
+}
+
+
+
+#loading {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 8px solid rgb(123, 98, 228);
+    border-radius: 50%;
+    border-top-color: #f7fafc;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+    margin-left: 48%;
+    margin-top :5%;
+    z-index: 1;
+    position: absolute;
+  }
+  
+  @keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
