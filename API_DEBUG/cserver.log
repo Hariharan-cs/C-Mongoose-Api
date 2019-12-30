@@ -1,5 +1,0 @@
-﻿  cserver.cpp
-G:\Zoho\cserver\cserver.cpp(17,20): warning C4018: '<': signed/unsigned mismatch
-G:\Zoho\cserver\cserver.cpp(24,21): warning C4018: '<': signed/unsigned mismatch
-G:\Zoho\cserver\cserver.cpp(66,6): warning C4101: 'i': unreferenced local variable
-  cserver.vcxproj -> G:\Zoho\cserver\Debug\cserver.exe
